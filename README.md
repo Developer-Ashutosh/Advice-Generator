@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/advice-generator-s8hbP5gNK2)
-- Live Site URL: [](https://developer-ashutosh.github.io/Advice-Generator/)
+- Solution URL: [Advice Generator](https://www.frontendmentor.io/solutions/advice-generator-s8hbP5gNK2)
+- Live Site URL: [Advice Generator App](https://developer-ashutosh.github.io/Advice-Generator/)
 
 ## My process
 
