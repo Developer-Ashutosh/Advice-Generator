@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+:root {
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+    --Font-Size-Quote: 28px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    background-color: var(--Dark-Grayish-Blue);
+    height: fit-content;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 30px;
+    padding-bottom: 50px;
+    gap: 25px;
+    position: relative;
+}
+
+h5 {
+    color: var(--Neon-Green);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.advice {
+    color: var(--Light-Cyan);
+    font-weight: 800;
+    width: 100%;
+    user-select: text;
+    -webkit-user-select: text;
+}
+
+.adviceBtn {
+    background-color: var(--Neon-Green);
+    padding: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -25px;
+    transition: 0.1s;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.adviceBtn:hover {
+    box-shadow: 1px 1px 20px var(--Neon-Green);
+}
+
+.adviceBtn img {
+    height: 20px;
+    width: 20px;
+}
+
+.attribution {
+    margin-top: 40px;
+    color: var(--Light-Cyan);
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--Neon-Green);
+}
+
+.attribution a:hover {
+    color: var(--Light-Cyan);
+}
